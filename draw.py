@@ -6,6 +6,16 @@ screen.fill((255, 255, 255)) # Fill the screen with white
 
 pygame.draw.line(screen, (0, 0, 0), (100, 380), (540, 380)) # Draw a black line
 
+pygame.draw.line(screen, (0, 0, 0), (540, 380), (540, 100)) # Draw a black line
+
+pygame.draw.line(screen, (0, 0, 0), (100, 380), (100, 100)) # Draw a black line
+
+pygame.draw.line(screen, (0, 0, 0), (325, 10), (100, 100)) # Draw a black line
+
+pygame.draw.line(screen, (0, 0, 0), (325, 10), (540, 100)) # Draw a black line
+
+pygame.draw.line(screen, (0, 255, 0), (0, 381), (700, 381)) # Draw a green line
+
 # Draw the ground
 # Draw the bottom of the house
 # Draw two walls
